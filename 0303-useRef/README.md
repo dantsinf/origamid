@@ -1,1 +1,1 @@
-### Um contador que com o useRef mostra uma string com timer de 2s na tela 3
+### Um contador que com o useRef mostra uma string com timer de 2s na tela
