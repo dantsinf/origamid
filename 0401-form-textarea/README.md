@@ -2,4 +2,4 @@
 
 ### uma textarea com arrow function que recebe o valor
 
-### Tela: textarea
+### Tela: textarea digitavel
