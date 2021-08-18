@@ -1,2 +1,2 @@
-## Aqui o conteúdo aprendido ao longo da ORIGAMID
+## Aqui o conteúdo aprendido ao longo do curso na ORIGAMID
 
