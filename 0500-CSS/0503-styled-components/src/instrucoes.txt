@@ -1,0 +1,6 @@
+Instalação
+npm install styled-components
+
+Plugin de VS Code
+
+vscode-styled-components
