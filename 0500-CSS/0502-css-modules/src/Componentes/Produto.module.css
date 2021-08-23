@@ -1,0 +1,21 @@
+/*CSS
+Os modules garantem que as classes utilizada sejam sempre únicas, evitando o conflito. O modo já vem configurando com o create-react-app, basta definirmos o nome do arquivo css com a palavra .module. Ex: Produto.module.css. Devemos definir um nome para a importação, a mesma será transformada em um objeto que possui nomes únicos para as classes.*/
+
+.titulo,
+.preco {
+  color: #43c;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+/*Ele gera nomes de classes apenas, então utilize o objeto direto no className e não no atributo style*/
+.comprar {
+  transform: rotate(90deg) translateY(-100px);
+}
+
+/* crie um css global utilizando o IMPORT puro para quando precisar de estilos globais */
+:global .container {
+  max-width: 900px;
+}
