@@ -1,0 +1,20 @@
+/*
+Background
+No CSS podemos utilizar o caminho direto. É importante colocar o ./, pois o webpack vai utilizar isso e substituir para o caminho final do site.
+*/
+
+.fundo {
+  width: 30%;
+  height: 250px;
+  /*importando img pelo css*/
+  background-image: url('./img/photo.jpg');
+  background-size: cover;
+  border-style: dotted;
+  border-radius: 90%;
+  overflow: hidden;
+}
+
+.dbz {
+  width: 30%;
+  height: 250px;
+}
