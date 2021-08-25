@@ -1,0 +1,12 @@
+REACT ROUTER
+
+React Router Dom
+É uma extensão que permite gerenciarmos as rotas do React. Ela é desenvolvida e mantida pela empresa React Trainning.
+
+https://reacttraining.com/react-router/
+
+https://github.com/ReactTraining/react-router/blob/dev/docs/api-reference.md
+
+-------------------------------------------------
+npm install history react-router-dom@next
+-------------------------------------------------
