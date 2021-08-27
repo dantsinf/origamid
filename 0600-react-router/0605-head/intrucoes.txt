@@ -1,0 +1,6 @@
+Helmet
+Uma extensão famosa é o react-helmet. Ela retonar com componente em que você pode definir tags do Head dentro do mesmo.
+
+https://github.com/nfl/react-helmet
+
+npm install react-helmet
