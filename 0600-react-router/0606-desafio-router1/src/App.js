@@ -1,9 +1,10 @@
+import React from 'react';
+import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Components/Header';
 import Produtos from './Components/Produtos';
+import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Contato from './Components/Contato';
-import styles from './App.css';
 import Produto from './Components/Produto';
 
 const App = () => {

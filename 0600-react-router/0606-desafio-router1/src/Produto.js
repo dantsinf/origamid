@@ -17,7 +17,7 @@ const Produto = () => {
         const json = await response.json();
         setProduto(json);
       } catch (erro) {
-        setError('Um erro ocorreu');
+        setError('Uma erro ocorreu');
       } finally {
         setLoading(false);
       }
@@ -25,7 +25,7 @@ const Produto = () => {
     fetchProduto(`https://ranekapi.origamid.dev/json/api/produto/${id}`);
   }, [id]);
 
-  if (loading) return <div className="loading"></div>;
+  if (loading) return <div className="loading">.</div>;
   if (error) return <p>{error}</p>;
   if (produto === null) return null;
   return (

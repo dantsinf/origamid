@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  /*isso deixa a imagem reativa ela resce e diminui de acordo com a resoluçãio*/
+  /*isso reixa a img relativa a resolução, ela cresce e diminui*/
   max-width: 100%;
   border-radius: 0.5rem;
 }
@@ -15,6 +15,18 @@ a {
 
 h1 {
   font-size: 1.4rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  margin: 0 auto;
+  min-height: calc(100vh + 10rem);
+}
+
+.content {
+  flex: 1;
 }
 
 .animeLeft {
@@ -34,9 +46,8 @@ h1 {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #ccc;
   border: 10px solid #ccc;
-  border-left-color: transparent;
+  border-right-color: transparent;
   animation: loading 1s infinite;
 }
 

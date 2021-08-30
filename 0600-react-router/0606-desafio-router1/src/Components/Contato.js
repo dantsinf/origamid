@@ -7,15 +7,15 @@ const Contato = () => {
   return (
     //não retorn nada de fora de section, se não tu tem 2 elementos
     //ele concatenou os nomes das classes
-    <section className={styles.contato + ' animeLeft'}>
+    <section className={`${styles.contato} animeLeft`}>
       <Head title="Ranek | Contato" description="Entre em contato" />
-      <img src={foto} alt="Açaí" />
+      <img src={foto} alt="Máquina de escrever" />
       <div>
         <h1>Entre em contato.</h1>
         <ul className={styles.dados}>
-          <li>name@email.com</li>
-          <li>51-991000000</li>
-          <li>Rua Aquiperto, 666</li>
+          <li>andre@origamid.com</li>
+          <li>99999-9999</li>
+          <li>Rua Ali Perto, 999</li>
         </ul>
       </div>
     </section>
