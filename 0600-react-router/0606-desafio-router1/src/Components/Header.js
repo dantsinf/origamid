@@ -9,13 +9,22 @@ const Header = () => {
         <li>
           {/*primeiro ele vai para home e a home sempre é barra*/}
           {/*o end para o navegador não achar que tu está na mesma página*/}
-          <NavLink className={styles.link} to="/" end>
+          <NavLink
+            activeClassName={styles.active}
+            className={styles.link}
+            to="/"
+            end
+          >
             Produtos
           </NavLink>
         </li>
         <li>
           {/*depois ele vai para contato*/}
-          <NavLink className={styles.link} to="contato">
+          <NavLink
+            activeClassName={styles.active}
+            className={styles.link}
+            to="contato"
+          >
             Contato
           </NavLink>
         </li>
