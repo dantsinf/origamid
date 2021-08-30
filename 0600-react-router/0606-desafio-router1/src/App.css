@@ -29,3 +29,19 @@ h1 {
     opacity: initial;
   }
 }
+
+.loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ccc;
+  border: 10px solid #ccc;
+  border-left-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
