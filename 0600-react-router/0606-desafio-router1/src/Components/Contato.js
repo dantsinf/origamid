@@ -1,10 +1,23 @@
 import React from 'react';
 import styles from './Contato.module.css';
-
+//como a img está do lado de fora da pasta é ...
+import foto from '../img/p1.png';
+import Head from './Head';
 const Contato = () => {
   return (
-    <section className={styles.contato}>
-      <h1>Contato</h1>
+    //não retorn nada de fora de section, se não tu tem 2 elementos
+    //ele concatenou os nomes das classes
+    <section className={styles.contato + ' animeLeft'}>
+      <Head title="Ranek | Contato" description="Entre em contato" />
+      <img src={foto} alt="Açaí" />
+      <div>
+        <h1>Entre em contato.</h1>
+        <ul className={styles.dados}>
+          <li>name@email.com</li>
+          <li>51-991000000</li>
+          <li>Rua Aquiperto, 666</li>
+        </ul>
+      </div>
     </section>
   );
 };
