@@ -4,6 +4,7 @@ import Produtos from './Components/Produtos';
 import Footer from './Components/Footer';
 import Contato from './Components/Contato';
 import styles from './App.css';
+import Produto from './Components/Produto';
 
 const App = () => {
   return (
