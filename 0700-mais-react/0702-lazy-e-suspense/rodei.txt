@@ -1,0 +1,3 @@
+1º npm install jquery
+
+2º 2x npm run build
