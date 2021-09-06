@@ -1,0 +1,8 @@
+.main {
+  padding: 40px 0;
+  width: 100%;
+  background-color: purple;
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
