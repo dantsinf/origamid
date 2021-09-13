@@ -1,7 +1,7 @@
 import React from "react";
 import "./Conteudo.css";
 
-const Conteudo = ({ handleChannge }) => {
+const Conteudo = ({ handleChannge, handleAlertClick }) => {
   return (
     <>
       <div className="conteudo">
@@ -9,7 +9,9 @@ const Conteudo = ({ handleChannge }) => {
           <div className="conteudo-sozinho">
             <h3>1) 300ml R$6,00</h3>
             <p>Sem adicionais</p>
-            <button onClick={handleChannge}>Adicionar</button>
+            <button onClick={handleChannge && handleAlertClick}>
+              Adicionar
+            </button>
           </div>
           <div className="conteudo-sozinho">
             <h3>2) 400ml R$7,00</h3>

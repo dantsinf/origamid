@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-const Header = ({ cont }) => {
+const Header = ({ cont, handleAlertClick }) => {
   return (
     <>
       <div className="main">
@@ -12,6 +12,7 @@ const Header = ({ cont }) => {
             </div>
             <div className="item-menu">
               <p>{cont}</p>
+              <p>{handleAlertClick}</p>
             </div>
           </div>
 

@@ -10,10 +10,19 @@ function App() {
     setCont(cont + 1);
   }
 
+  function handleAlertClick() {
+    setTimeout(() => {
+      alert("Você adicionou um sorvete");
+    }, 3000);
+  }
+
   return (
     <div className="App">
-      <Header cont={cont} />
-      <Conteudo handleChannge={handleChannge} />
+      <Header cont={cont} handleAlertClick={handleAlertClick} />
+      <Conteudo
+        handleAlertClick={handleAlertClick}
+        handleChannge={handleChannge}
+      />
     </div>
   );
 }
