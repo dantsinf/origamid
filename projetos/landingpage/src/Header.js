@@ -1,7 +1,7 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
 
-const Header = () => {
+const Header = ({ cont }) => {
   return (
     <>
       <div className="main">
@@ -11,7 +11,7 @@ const Header = () => {
               <h3>Açaí Time</h3>
             </div>
             <div className="item-menu">
-              <a href="/">Login</a>
+              <p>{cont}</p>
             </div>
           </div>
 
