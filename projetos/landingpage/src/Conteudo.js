@@ -1,4 +1,5 @@
 import React from 'react';
+import App from './App';
 import './Conteudo.css';
 
 const Conteudo = ({ handleChannge, handleAlertClick }) => {
@@ -9,6 +10,7 @@ const Conteudo = ({ handleChannge, handleAlertClick }) => {
           <div className="conteudo-sozinho">
             <h3>1) 300ml R$6,00</h3>
             <p>Sem adicionais</p>
+            <App nome="300ml" />
             <button onClick={handleChannge}>Adicionar</button>
           </div>
           <div className="conteudo-sozinho">
