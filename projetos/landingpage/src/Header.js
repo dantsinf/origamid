@@ -1,5 +1,5 @@
-import React from "react";
-import "./Header.css";
+import React from 'react';
+import './Header.css';
 
 const Header = ({ cont, handleAlertClick }) => {
   return (
@@ -11,7 +11,7 @@ const Header = ({ cont, handleAlertClick }) => {
               <h3>Açaí Time</h3>
             </div>
             <div className="item-menu">
-              <p>{cont}</p>
+              <h2>{cont === 0 ? '' : cont}</h2>
               <p>{handleAlertClick}</p>
             </div>
           </div>

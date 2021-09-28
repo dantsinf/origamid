@@ -1,9 +1,9 @@
-import React from "react";
-import "./App.css";
-import Conteudo from "./Conteudo";
-import Header from "./Header";
+import React from 'react';
+import './App.css';
+import Conteudo from './Conteudo';
+import Header from './Header';
 
-function App() {
+function App({ oi }) {
   const [cont, setCont] = React.useState(0);
 
   function handleChannge() {
@@ -12,7 +12,7 @@ function App() {
 
   function handleAlertClick() {
     setTimeout(() => {
-      alert("Você adicionou um sorvete");
+      alert('Você adicionou um sorvete ');
     }, 3000);
   }
 
